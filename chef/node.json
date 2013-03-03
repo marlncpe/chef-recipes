@@ -1,0 +1,13 @@
+{
+  "user": {
+    "name": "deployer",
+    "password": "$1$jBZhrpGH$LcVVPw44e2f0wd8xzRbXl"
+  },
+   "default_attributes": { 
+     "build_essential": { "compiletime": true }
+   },
+  "run_list": 
+   [
+      "recipe[main]"
+   ]
+}
